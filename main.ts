@@ -56,7 +56,7 @@ let leds: number[] = []
 let mode = 0
 basic.showIcon(IconNames.Asleep)
 mode = 0
-leds = [0, 24]
+leds = []
 basic.pause(1000)
 effacerLeds()
 basic.forever(function () {
